@@ -15,3 +15,6 @@ __pycache__/
 
 # Python Cache
 .pytest_cache/
+
+#Generierte Berichte
+portfolio_report.xlsx
