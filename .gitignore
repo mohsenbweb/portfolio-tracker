@@ -22,3 +22,6 @@ portfolio_report.xlsx
 # Private portfolio data
 portfolio.xlsx
 portfolio_history.csv
+
+# LibreOffice lock files
+.~lock.*#
