@@ -1,96 +1,64 @@
-# Portfolio Tracker
+# 📊 Portfolio Tracker
 
-Ein Python-basierter Portfolio Tracker für Aktien, ETFs und Kryptowährungen mit Live-Kursen.
+Ein Python-basierter Portfolio Tracker zur Verwaltung und Analyse eines Wertpapierportfolios mit Aktien, ETFs und Kryptowährungen.
 
-## Funktionen
+Das Projekt verwendet aktuelle Marktdaten und stellt wichtige Portfolio-Kennzahlen übersichtlich in einem Streamlit-Dashboard dar.
 
-- Aktien, ETFs und Kryptowährungen verwalten
-- Live-Kurse über **Yahoo Finance (yfinance)**
-- Gewinn und Verlust automatisch berechnen
-- Rendite in Prozent anzeigen
-- Portfolio als Excel-Bericht exportieren
-- Modulare Projektstruktur für einfache Erweiterungen
+## ✨ Funktionen
 
-## Verwendete Technologien
+- 📊 Portfolio-Dashboard mit Streamlit
+- 📈 Aktien, ETFs und Kryptowährungen verwalten
+- 🔄 Aktuelle Kurse über Yahoo Finance (`yfinance`)
+- 💰 Investiertes Kapital und aktueller Portfoliowert
+- 📈 Gewinn und Verlust automatisch berechnen
+- 📉 Rendite in Prozent berechnen
+- 🟢 Positive und 🔴 negative Entwicklungen farblich darstellen
+- 📊 Portfolio-Verteilung nach Anlageklasse
+- 📈 Grafische Darstellung der Portfolio-Verteilung mit Plotly
+- 📗 Excel-basierte Portfolio-Daten
+- 🔐 Trennung von privaten Portfolio-Daten und öffentlichen Demo-Daten
+- 🧩 Modulare Projektstruktur für zukünftige Erweiterungen
 
-- Python 3
-- pandas
-- yfinance
-- openpyxl
-- Streamlit (geplant)
-- Plotly (geplant)
-- Git & GitHub
+## 🖥️ Dashboard
 
-## Projektstruktur
+Das Dashboard zeigt unter anderem:
+
+- Gesamtportfolio
+- Investiertes Kapital
+- Aktuellen Portfoliowert
+- Gewinn / Verlust
+- Rendite
+- Aktien
+- ETFs
+- Kryptowährungen
+- Einzelne Portfolio-Positionen
+- Portfolio-Verteilung nach Anlageklasse
+
+## 🛠️ Verwendete Technologien
+
+- **Python 3**
+- **Streamlit**
+- **Pandas**
+- **yfinance**
+- **OpenPyXL**
+- **Plotly**
+- **Git & GitHub**
+
+## 📁 Projektstruktur
 
 ```text
 portfolio-tracker/
 │
 ├── app.py
+├── dashboard.py
 ├── requirements.txt
 ├── README.md
-├── portfolio.xlsx
+├── portfolio_demo.xlsx
+│
 ├── modules/
 │   ├── calculations.py
 │   ├── portfolio.py
 │   └── prices.py
+│
 └── .gitignore
 ```
-
-## Installation
-
-Repository klonen:
-
-```bash
-git clone https://github.com/mohsenbweb/portfolio-tracker.git
-cd portfolio-tracker
-```
-
-Virtuelle Umgebung erstellen:
-
-```bash
-python3 -m venv .venv
-```
-
-Virtuelle Umgebung aktivieren:
-
-Linux/macOS
-
-```bash
-source .venv/bin/activate
-```
-
-Windows PowerShell
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Pakete installieren:
-
-```bash
-pip install -r requirements.txt
-```
-
-Programm starten:
-
-```bash
-python app.py
-```
-
-## Roadmap
-
-- [x] Portfolio aus Excel laden
-- [x] Live-Kurse abrufen
-- [x] Gewinn und Verlust berechnen
-- [x] Excel-Bericht erzeugen
-- [ ] Streamlit-Weboberfläche
-- [ ] Diagramme mit Plotly
-- [ ] SQLite-Datenbank
-- [ ] Kauf- und Verkaufshistorie
-- [ ] Dashboard
-- [ ] Cloud Deployment
-
-## Lizenz
-
-Dieses Projekt dient als Lern- und Demonstrationsprojekt.
