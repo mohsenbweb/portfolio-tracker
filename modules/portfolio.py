@@ -7,7 +7,7 @@ def load_portfolio():
 
     datei = os.getenv(
         "PORTFOLIO_FILE",
-        "portfolio.xlsx"
+        "portfolio_demo.xlsx"
     )
 
     df = pd.read_excel(datei)
