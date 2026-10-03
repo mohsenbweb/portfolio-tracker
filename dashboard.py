@@ -126,7 +126,7 @@ if gesamt_investiert > 0:
 
 # Portfolio-Wert speichern
 
-history_file = "portfolio_history.csv"
+history_file = os.getenv("PORTFOLIO_HISTORY_FILE", "portfolio_history_demo.csv")
 
 neuer_eintrag = pd.DataFrame([{
     "Datum": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -338,7 +338,7 @@ st.plotly_chart(
 
 st.subheader("📈 Portfolioentwicklung")
 
-history_file = "portfolio_history.csv"
+history_file = os.getenv("PORTFOLIO_HISTORY_FILE", "portfolio_history_demo.csv")
 
 if os.path.exists(history_file):
 
