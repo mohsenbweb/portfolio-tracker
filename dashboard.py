@@ -294,7 +294,7 @@ styled_ergebnis = (
 
 st.dataframe(
     styled_ergebnis,
-    use_container_width=True,
+    width="stretch",
     hide_index=True
 )
 
@@ -329,7 +329,7 @@ fig.update_layout(
 
 st.plotly_chart(
     fig,
-    use_container_width=True
+    width="stretch"
 )
 
 
@@ -397,7 +397,7 @@ if os.path.exists(history_file):
 
     st.plotly_chart(
         fig_history,
-        use_container_width=True
+        width="stretch"
     )
 
 else:
