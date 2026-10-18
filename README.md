@@ -21,6 +21,11 @@ Das Projekt verwendet aktuelle Marktdaten und stellt wichtige Portfolio-Kennzahl
 
 ## 🖥️ Dashboard
 
+
+![Dashboard mit Demo-Daten](docs/dashboard.png)
+
+*Screenshot mit frei erfundenen Demo-Daten.*
+
 Das Dashboard zeigt unter anderem:
 
 - Gesamtportfolio
