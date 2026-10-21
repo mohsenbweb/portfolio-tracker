@@ -6,7 +6,7 @@ def calculate_position(kaufpreis, anzahl, aktueller_kurs):
     investiert = kaufpreis * anzahl
     aktueller_wert = aktueller_kurs * anzahl
     gewinn = aktueller_wert - investiert
-    rendite = (gewinn / investiert) * 100
+    rendite = (gewinn / investiert) * 100 if investiert else 0.0
 
     return {
         "investiert": investiert,
