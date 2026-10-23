@@ -1,5 +1,7 @@
 # 📊 Portfolio Tracker
 
+[![Tests](https://github.com/mohsenbweb/portfolio-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/mohsenbweb/portfolio-tracker/actions/workflows/tests.yml)
+
 Ein Python-basierter Portfolio Tracker zur Verwaltung und Analyse eines Wertpapierportfolios mit Aktien, ETFs und Kryptowährungen.
 
 Das Projekt verwendet aktuelle Marktdaten und stellt wichtige Portfolio-Kennzahlen übersichtlich in einem Streamlit-Dashboard dar.
