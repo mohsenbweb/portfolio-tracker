@@ -1,6 +1,6 @@
 # 📊 Portfolio Tracker
 
-[![Tests](https://github.com/mohsenbweb/portfolio-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/mohsenbweb/portfolio-tracker/actions/workflows/tests.yml)
+[![Tests](https://github.com/mohsenmakoei/portfolio-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/mohsenmakoei/portfolio-tracker/actions/workflows/tests.yml)
 
 Ein Python-basierter Portfolio Tracker zur Verwaltung und Analyse eines Wertpapierportfolios mit Aktien, ETFs und Kryptowährungen.
 
@@ -61,7 +61,7 @@ Das Dashboard zeigt unter anderem:
 ### Demo starten
 
 ```bash
-git clone https://github.com/mohsenbweb/portfolio-tracker.git
+git clone https://github.com/mohsenmakoei/portfolio-tracker.git
 cd portfolio-tracker
 python3 -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
